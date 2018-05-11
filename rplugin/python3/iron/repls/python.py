@@ -21,20 +21,20 @@ python = {
 ipython = {
     'command':   'ipython',
     'language':  'python',
-    'multiline': ('\x1b[200~', '\x1b[201~', '\r'),
+    'multiline': ('\x1b[200~', '\x1b[201~', '\r\n'),
 }
 
 
 ptpython = {
     'command': 'ptpython',
     'language': 'python',
-    'multiline': ('\x1b[200~', '\x1b[201~', '\r'),
+    'multiline': ('\x1b[200~', '\x1b[201~', '\r\n'),
 }
 
 
 ptipython = {
     'command': 'ptipython',
     'language': 'python',
-    'multiline': ('\x1b[200~', '\x1b[201~', '\r'),
+    'multiline': ('\x1b[200~', '\x1b[201~', '\r\n'),
     'detect': detect_fn(['ptipython', 'ipython']),
 }
